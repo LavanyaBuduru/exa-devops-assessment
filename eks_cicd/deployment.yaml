@@ -18,8 +18,8 @@ spec:
         app: cicd-demo
     spec:
       containers:
-        - image: 064128410423.dkr.ecr.ap-south-1.amazonaws.com/cicddemo:latest
+        - image: 064128410423.dkr.ecr.ap-south-1.amazonaws.com/cicd-demo
           imagePullPolicy: Always
-          name: cicddemo
+          name: cicd-demo
           ports:
-            - containerPort: 3000
+            - containerPort: 80
